@@ -1,0 +1,102 @@
+.headerimg {
+    position: absolute;
+    left: 132px;
+    top: 67px;
+}
+.navli {
+    display: inline-block;
+    color: #3D37F1;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.navul {
+    width: 581px;
+    height: 24px;
+    position: absolute;
+    top: 87px;
+    right: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+.livdiv { 
+    width: 581px;
+    height: 24px;
+
+}
+.container {
+    width: 1708px;
+    height: 527px;
+    margin: 262px, 0px, 120px;
+    position: absolute;
+    top: 373px;
+    left: 132px;
+}
+.leftbox {
+    width: 600px;
+    height: 509px;
+    display: inline-block;
+
+}
+.text1 {
+    font-size: 78px;
+    width: 600px;
+    height: 203px;
+    color: #534D4D;
+}
+.text2 {
+    font-size: 22px;
+    color: #534D4D;
+    width: 602px;
+    height: 103px;
+    
+}
+.littlebox {
+    width: 267px;
+    height: 77px;
+    background-color: #3D37F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+    margin-top: 60px;
+    
+
+}
+.smltxt {
+    font-size: 23px;
+    margin-left: 25px;
+}
+.rightbox {
+    width: 801px;
+    height: 526px;
+    display: inline-block   ;
+    margin-left: 300px;
+    
+}
+.container2 {
+    width: 1800px;
+    height: 1443px;
+    margin-top: 1175px;
+    position: relative;
+}
+.topsmalldiv {
+    width: 746px;
+    height: 195px;
+    /* background-color: gray; */
+    position: absolute;
+    top: 87px;
+    left: 606px;
+    vertical-align: baseline;
+}
+.smlhdr {
+    color: #3D37F1;
+
+}
+.smlhdr2 {
+    color: #5A5454;
+
+}
+.smltxt {
+    color: #747474;
+    \
+}
