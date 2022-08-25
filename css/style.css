@@ -114,10 +114,12 @@
     position: absolute;
     top: 336px;
     left: 375px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .smallbox1 {
     width: 370px;
     height: 451px;
-    background-color: #3D37F1;
-
-}
+    background-color: #a5a4b9;
+}   
