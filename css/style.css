@@ -118,12 +118,13 @@
     justify-content: space-between;
     
 }
-.smallbox1 {
+.smallbox {
     width: 370px;
     height: 451px;
+    position: relative;
 
 }  
-.bigboxwraper :nth-child(1) {
+.bigboxwraper :nth-child(1):not(img) {
     background-color: #FBBA77
 }
 .bigboxwraper :nth-child(2) {
@@ -141,6 +142,35 @@
 .bigboxwraper :nth-child(6) {
     background-color: #FF8088;
 }
-.img1 {
+.img-1 {
+    position: absolute;
+    top: 88px;
+    left: 134px;
+
+}
+.img-2 {
+    position: absolute;
+    top: 88px;
+    left: 134px;
+}
+.img-3 {
+    position: absolute;
+    top: 88px;
+    left: 134px;
     
+}
+.img-4 {
+    position: absolute;
+    top: 88px;
+    left: 134px;
+}
+.img-5 {
+    position: absolute;
+    top: 88px;
+    left: 134px;
+}
+.img-6 {
+    position: absolute;
+    top: 88px;
+    left: 134px;
 }
