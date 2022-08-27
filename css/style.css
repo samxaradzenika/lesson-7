@@ -124,22 +124,22 @@
     position: relative;
 
 }  
-.bigboxwraper :nth-child(1):not(img) {
+.bigboxwraper :nth-child(1):not(img,h2,p,.innerbox,span) {
     background-color: #FBBA77
 }
-.bigboxwraper :nth-child(2) {
+.bigboxwraper :nth-child(2):not(img,h2,p,.innerbox,span) {
     background-color: #41EAE3;
 }
-.bigboxwraper :nth-child(3) {
+.bigboxwraper :nth-child(3):not(img,h2,p,.innerbox,span){
     background-color: #69529F;
 }
-.bigboxwraper :nth-child(4) {
+.bigboxwraper :nth-child(4):not(img,h2,p,.innerbox1,span,.innerbox){
     background-color: #4386D2;
 }
-.bigboxwraper :nth-child(5) {
+.bigboxwraper :nth-child(5):not(img,h2,p,.innerbox,span){
     background-color: #A5A2F6;
 }
-.bigboxwraper :nth-child(6) {
+.bigboxwraper :nth-child(6):not(img,h2,p,.innerbox,span){
     background-color: #FF8088;
 }
 .img-1 {
@@ -173,4 +173,72 @@
     position: absolute;
     top: 88px;
     left: 134px;
+}
+.smallbox-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.innerbox1 {
+    background-color: white;
+    width: 131px;
+    height: 45px;
+    position: absolute;
+    top: 358px;
+    left: 119px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerbox {
+    width: 131px;
+    height: 45px;
+    position: absolute;
+    top: 358px;
+    left: 119px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+}
+.inboxtext1 {
+    color: #4B647E;
+    font-size: 15px;
+}
+.inboxtext {
+    color: white;
+    font-size: 15px;
+
+}
+.inhdr1 {
+    font-size: 22px;
+    position: absolute;
+    top: 247px;
+    left: 124px;
+    color: white;
+
+}
+.intxt1 {
+    font-size: 16px;
+    position: absolute;
+    top: 285px;
+    left: 21px;
+    width: 328px;
+    height: 62px;
+    color: white;
+    margin-top: 14px;
+}
+.innerbox :hover {
+    transform: scale(1.5);
+}
+.innerbox1 :hover {
+    transform: scale(1.5);
+}
+h2:hover {
+    transform: scale(1.5);
 }
